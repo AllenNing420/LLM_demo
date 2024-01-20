@@ -4,8 +4,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from openai import OpenAI
 
-api_key = "sk-j3e4GaE8bIiHEEbJxlo3YoECiEXLYIu2THwrNrkOIDUcSEQx"
-# api_key = "sk-4C0P5RQGyRrxak3X7XTlcyanDs4JGjrxhtn3dRUhoIBSPw4J"
+api_key = "sk-4C0P5RQGyRrxak3X7XTlcyanDs4JGjrxhtn3dRUhoIBSPw4J"
 
 def langchain_openai_demo():
     prompt = ChatPromptTemplate.from_template("{topic}需要注意什么？")
